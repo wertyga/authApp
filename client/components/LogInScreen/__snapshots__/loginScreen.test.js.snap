@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#LoginScreen component Check that component didn't change while require fields are empty 1`] = `
+<div
+  className="LogInScreen"
+>
+  <div
+    className="form"
+  >
+    <label
+      htmlFor="usernameInput"
+    >
+      Username:
+    </label>
+    <input
+      disabled={false}
+      id="usernameInput"
+      name="username"
+      onChange={[Function]}
+      placeholder="Username..."
+      type="text"
+      value=""
+    />
+    <label
+      htmlFor="passwordInput"
+    >
+      Password:
+    </label>
+    <input
+      disabled={false}
+      id="passwordInput"
+      name="password"
+      onChange={[Function]}
+      placeholder="Password..."
+      type="text"
+      value=""
+    />
+    <button
+      className="primary"
+      disabled={true}
+      id="login"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+    <button
+      className="primary"
+      disabled={false}
+      id="registration"
+      onClick={[Function]}
+    >
+      Registration
+    </button>
+  </div>
+</div>
+`;
